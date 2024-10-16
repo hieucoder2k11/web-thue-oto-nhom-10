@@ -1,0 +1,97 @@
+
+.section-one .inner-header{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 10px 10px 0 0;
+}
+.section-one .inner-title{
+    font-weight: 700;
+    font-size: 32px;
+}
+.section-one .inner-body{
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+.section-one .card{
+    border: 0;
+}
+.section-one .card-header{
+    background-color: #ffff;
+    border: 0;
+}
+.section-one .btn:focus{
+    box-shadow: none;
+}
+.section-one .btn{
+    border: 0;
+    text-decoration: none;
+    color: orange;
+}
+.section-one .collapsed{
+    border: 1px solid #ddd;
+    color: black;
+}
+
+/* section-tow */
+.section-two{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section-two .inner-main{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.section-two .inner-head {
+    background-color: aqua;
+    color: #fff;
+    text-align: center;
+}
+.section-two .inner-body{
+    padding: 20px;
+}
+.section-two .inner-title{
+    font-size: 45px;
+    font-weight: 600;
+}
+.section-two .button{
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 45px;
+}
+/* end section-tow */
+
+/* section-three  */
+.section-three .modal-content{
+    position: relative;
+}
+.section-three .modal-header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-three .inner-img{
+    width: 80%;
+    height: 200px;
+}
+.section-three .close{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-three .button{
+    width: 100%;
+}
+/* end section-three  */

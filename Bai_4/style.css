@@ -1,0 +1,40 @@
+.color-green{
+    color: green;
+}
+.color-red{
+    color: red;
+}
+.background{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+}
+.background-img{
+    height: 200px;
+    width: 100%;
+    background-image: url(image/Ảnh\ chụp\ màn\ hình\ 2024-06-04\ 094451.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size: 100% auto;
+}
+.box-1{
+    padding: 50px;
+    border: 20px solid;
+    margin: 100px;
+    background-color: green;
+    text-align: center;
+}
+.box-2{
+    padding: 50px;
+    border: 20px dashed;
+    margin: 100px;
+    background-color: red;
+    text-align: right;
+    background-clip: padding-box;
+}
+.fonts{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}

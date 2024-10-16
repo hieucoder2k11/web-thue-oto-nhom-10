@@ -1,0 +1,18 @@
+table, th, td{
+    border: 2px solid #000;
+    padding: 20px;
+    height: 10px;
+    width: 200px;
+}
+table{
+    border-collapse: collapse;
+}
+td:hover{
+    background-color: aqua;
+}
+i{
+    border: 2px solid #000;
+}
+i:hover{
+background-color: aqua;
+}
